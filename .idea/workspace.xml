@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/labo_5/HomeL5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_5/Opdracht_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_5/Opdracht_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_5/Opdracht_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_5/Opdracht_6/L5O6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_5/Opdracht_6/Opdracht6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_5/Opdracht_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labo_5/Opdracht_6/L5O6.css" beforeDir="false" afterPath="$PROJECT_DIR$/labo_5/Opdracht_6/L5O6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labo_5/Opdracht_6/Opdracht6.html" beforeDir="false" afterPath="$PROJECT_DIR$/labo_5/Opdracht_6/Opdracht6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +70,7 @@
       <workItem from="1665674841330" duration="1593000" />
       <workItem from="1666165328333" duration="3145000" />
       <workItem from="1666427396867" duration="7004000" />
+      <workItem from="1666722437838" duration="405000" />
     </task>
     <servers />
   </component>
