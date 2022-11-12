@@ -1,0 +1,29 @@
+
+.vrijedag{
+    background-color:rgb(250,120,120);
+}
+tr:first-child td{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+th{
+    background-color:rgb(170,170,200);
+}
+ td:first-child {
+    background-color:rgb(250,220,220);
+}
+ td:last-child {
+    background-color:rgb(250,220,220);
+}
+ .andermaand{
+     background-color:lightgray;
+     color:gray(60)
+ }
+ tr:last-child td:last-child{
+     background-color:lightgray;
+     color:gray(60)
+ }
+ tr:nth-child(2) td:first-child{
+     background-color:lightgray;
+     color:gray(60)
+ }

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/labo_6/HomeL6.html" beforeDir="false" afterPath="$PROJECT_DIR$/labo_6/HomeL6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_3/homepage/homepagestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_7/Friendtable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_7/HomeL7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_7/Opdracht4/Opdracht4style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_7/Opdracht4/Opdracht_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_7/opgave nature blog/Naturestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labo_3/homepage/Personal Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/labo_3/homepage/Personal Homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +80,12 @@
       <workItem from="1666722437838" duration="405000" />
       <workItem from="1666768270330" duration="5549000" />
       <workItem from="1666803911265" duration="1229000" />
-      <workItem from="1667045867376" duration="3704000" />
+      <workItem from="1667045867376" duration="5454000" />
+      <workItem from="1667223933862" duration="672000" />
+      <workItem from="1667981987988" duration="5068000" />
+      <workItem from="1668088228873" duration="6197000" />
+      <workItem from="1668267484558" duration="6478000" />
+      <workItem from="1668281574555" duration="3170000" />
     </task>
     <servers />
   </component>

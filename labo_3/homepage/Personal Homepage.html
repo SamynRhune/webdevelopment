@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Rhune Samyn</title>
+    <link href="homepagestyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <h1>Rhune Samyn</h1>
@@ -39,12 +40,14 @@
       <ol>
         <li>Favorite music band:
           <strong>Bastille</strong>
+          <br/>
           <img src="https://media.s-bol.com/0Xg1gR040NJG/1WOJpVR/1200x1200.jpg" alt="foto Bastille" width="100" height="100"></li>
         <li>Favorite song:
           <strong>I ain't worried</strong>
           <a href="https://youtu.be/mNEUkkoUoIA">Muziekvideo</a></li>
         <li> Favorite movie:
           <strong>Guardians of the Galaxy Vol. 2</strong>
+          <br/>
           <img src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_FMjpg_UX1000_.jpg"
           alt="foto guardians of the Galaxy Vol. 2" width="67" height="100"></li>
         <li>Favorite book:
@@ -52,11 +55,13 @@
           <a href="https://youtu.be/3EGojp4Hh6I">Trailer</a></li>
         <li>Favorite food:
           <strong>Sushi</strong>
+          <br/>
           <img src="https://d1mlbwr23caxox.cloudfront.net/public/sites/default/files/recipe-images/sushii_5.jpg?VersionId=1fiT4jECm_3CJ8imIwKOGC18R4h.BWA5"
           alt="foto sushi" width="131" height="100"></li>
       </ol>
   </section>
   <section>
+    <!--
     <table border="1" width="95%">
       <caption><h2>Prognose</h2></caption>
      <colgroup>
@@ -96,6 +101,18 @@
         </tr>
       </tfoot>
   </table>
+  -->
+
+    <div class="datagrid"><table>
+      <thead><tr><th>Naam</th><th>Voornaam</th><th>Leeftijd</th><th>Hobby</th><th>Postcode</th><th>Haarkleur</th></tr></thead>
+      <tfoot><tr><td colspan="4"><div id="paging"><ul><li><a href="#"><span>Previous</span></a></li><li><a href="#" class="active"><span>1</span></a></li><li><a href="#"><span>2</span></a></li><li><a href="#"><span>3</span></a></li><li><a href="#"><span>4</span></a></li><li><a href="#"><span>5</span></a></li><li><a href="#"><span>Next</span></a></li></ul></div></tr></tfoot>
+      <tbody><tr class="alt"><td>Vandenberghe</td><td>Elien</td><td>19</td><td>Onzeker</td><td>5685</td><td>Bruin</td></tr>
+      <tr class="alt"><td>Deschepper</td><td>Jos</td><td>17</td><td>Volleyballen</td><td>9562</td><td>Paars</td></tr>
+      <tr><td>Stadsbader</td><td>Mark</td><td>18</td><td>Gamen</td><td>5965</td><td>Donker Bruin</td></tr>
+      <tr class="alt"><td>Vanacker</td><td>Robbe</td><td>20</td><td>Onbekend</td><td>4562</td><td>Blond</td></tr>
+      <tr class="alt"><td>Debrouwer</td><td>Lara</td><td>Onzeker</td><td>Paardrijden</td><td>7521</td><td>Rood</td></tr>
+      </tbody>
+    </table></div>
   </section>
 </body>
 </html>
