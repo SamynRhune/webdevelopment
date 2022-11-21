@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/labo_8/frontendmentorprofilecardBeginSituatie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/labo_8/frontendmentorprofilecardBeginSituatie/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labo_8/frontendmentorprofilecardBeginSituatie/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/labo_8/frontendmentorprofilecardBeginSituatie/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1668281574555" duration="3766000" />
       <workItem from="1668935707157" duration="4372000" />
       <workItem from="1668954292072" duration="3915000" />
-      <workItem from="1669057767748" duration="1615000" />
+      <workItem from="1669057767748" duration="1884000" />
     </task>
     <servers />
   </component>
