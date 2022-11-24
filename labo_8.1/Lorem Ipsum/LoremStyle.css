@@ -1,0 +1,16 @@
+.float {
+    float:right;
+}
+section {
+
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    margin-inline: -10px;
+    border: solid black 1px;
+    padding:10px;
+
+}
+body{
+    margin: 20px;
+}

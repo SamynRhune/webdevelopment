@@ -1,0 +1,67 @@
+body{
+    max-width:95%;
+    margin:auto;
+    font-size: 1.2em;
+    font-family:Helvetica;
+
+}
+
+h1{
+    font-size:150%;
+}
+h2{
+    font-size:130%;
+}
+h1,h2{
+    color: #007e7e;
+}
+footer{
+    font-size:0.6em;
+}
+div{
+    display:inline-block;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width:30%;
+    text-align:center;
+
+    border:solid #007e7e 2px;
+    background-image:url("images/cocktail.gif");
+    background-repeat:repeat-x;
+
+
+}
+section{
+
+    width:70%;
+
+}
+.weeklyspecials{
+    background-color:brown;
+
+}
+.weeklyspecials:hover{
+    color:lawngreen;
+}
+.frontimage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.float{
+    float:right;
+
+}
+#guarantee{
+    background-color:#a7cece;
+    margin:30px;
+    padding:20px;
+    color: #444444;
+    border:dashed white;
+    background-image:url("images/background.gif");
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-size:60px;
+    padding-left:50px;
+}
