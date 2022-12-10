@@ -1,0 +1,22 @@
+section{
+    background-color:deepskyblue;
+    border:orange solid 2px;
+
+
+
+    list-style-position:inside;
+}
+body{
+    margin:0px;
+    background-image:url("https://r1.ilikewallpaper.net/iphone-xs-max-wallpapers/download/37028/Street-light-night-city-iphone-xs-max-wallpaper-ilikewallpaper_com.jpg");
+
+}
+header{
+    text-align:center;
+}
+div>div>img{
+    padding:0px;
+}
+h1{
+    color:darkcyan
+}

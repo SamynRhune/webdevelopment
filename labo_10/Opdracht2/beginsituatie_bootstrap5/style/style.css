@@ -1,0 +1,12 @@
+div>div>div{
+    background-color:lightgrey;
+    text-align:center;
+    border: white solid 3px;
+
+}
+div>div>div:nth-child(even){
+    background-color:gray;
+}
+body{
+
+}

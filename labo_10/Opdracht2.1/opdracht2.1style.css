@@ -1,0 +1,7 @@
+div>div>div{
+    background-color:lightgray;
+    border:solid white 2px;
+}
+div>div>div:nth-child(even){
+    background-color:gray;
+}
