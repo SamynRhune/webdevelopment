@@ -1,0 +1,36 @@
+.container{
+display:grid;
+    grid-template-columns:repeat(3,auto);
+    grid-template-rows:repeat(3,auto);
+    grid-gap:5px;
+}
+
+.container .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.block.block1{
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color:purple;
+ }
+.block.block2{
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color:blueviolet;
+}
+.block.block3{
+    grid-column-start:1;
+    grid-column-end:2;
+    background-color:cadetblue;
+}
+.block.block4{
+    grid-column-start:2;
+    grid-column-end:4;
+    background-color: lightblue;
+}
+

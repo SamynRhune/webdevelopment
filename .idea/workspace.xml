@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/labo_10/HomeL10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_10/Homepage/Homepagev2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_10/Homepage/Homepagev2style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_10/Mondriaan/mondriaan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_10/Mondriaan/mondriaanstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_10/Opdracht2.1/Opdracht2.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labo_10/Opdracht2.1/opdracht2.1style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo_11/HomeL11.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -103,7 +97,9 @@
       <workItem from="1670403004565" duration="2830000" />
       <workItem from="1670514951807" duration="7515000" />
       <workItem from="1670572177026" duration="2861000" />
-      <workItem from="1670668185559" duration="9996000" />
+      <workItem from="1670668185559" duration="10050000" />
+      <workItem from="1671004861524" duration="6036000" />
+      <workItem from="1671044853282" duration="1655000" />
     </task>
     <servers />
   </component>
