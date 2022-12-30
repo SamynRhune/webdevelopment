@@ -1,0 +1,161 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display:block;
+    padding-bottom:15px;
+    padding-left:15px;
+}
+.logo{
+    height:50px;
+
+}
+#left{
+    order:0;
+    width:50%;
+
+    float:right;
+    text-align:right;
+
+
+}
+#right{
+
+    width:50%;
+
+    float:right;
+    text-align:right;
+    background-color:black;
+    color:white;
+}
+nav{
+    display:grid;
+    grid-template-columns:repeat(7,auto);
+    grid-template-rows:auto;
+    padding-bottom:10px;
+    padding-top:10px;
+    width:600px;
+    text-transform:uppercase;
+    color: #5b4746;
+    font-size:13px;
+}
+body{
+    width: 600px;
+    margin:auto;
+}
+nav>a{
+    text-align:center;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-right: #ebe8e8 solid 1px;
+
+}
+nav>a:hover{
+    text-decoration:underline #fff100 2px;
+}
+nav>a:last-child{
+    border-right:white solid 1px;
+}
+main{
+    border-top: #ebe8e8 solid 1px;
+}
+footer{
+    border-top:#ebe8e8 solid 1px;
+    line-height:2em;
+    margin-top:20px;
+}
+main>div{
+    background-image:url("../fotos/headerimage.jpg");
+    height:500px;
+    background-size:cover;
+    text-align:center;
+    padding-top:290px;
+    font-size:40px;
+    color:white;
+    text-shadow:2px 2px #8D99AE;
+}
+section:first-of-type{
+    margin-top:50px;
+    width:600px;
+}
+section>div:first-of-type{
+
+    grid-column-gap:15px;
+    display:grid;
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: repeat(10,auto);
+}
+div>article{
+    margin-right:1.5em;
+    padding-top:1em;
+    border-top: #ddd solid 1px;
+
+}
+article>span:nth-child(1){
+    text-transform:uppercase;
+    font-size:1.2em;
+    letter-spacing:1px;
+    display:block;
+    color:#ff4d56;
+}
+article>h2{
+    text-decoration:none;
+    color:black;
+}
+article>span:nth-child(3){
+    color:#666;
+    line-height:2em;
+    display:block;
+
+}
+article>span:nth-child(4){
+    padding-right:10px;
+    border-right:#ebe8e8 solid 1px;
+    font-style:oblique;
+
+}
+article>span:nth-child(5){
+    color:#666;
+    padding-left:10px;
+}
+main>section:nth-child(3){
+    margin-top:50px;
+
+}
+main>section:nth-child(3)>div{
+
+}
+
+
+
+
+
+@media screen and (min-width:770px) and (max-width:999px){
+    body{
+        width:750px;
+    }
+    nav{
+        width:770px;
+    }
+    section:first-of-type{
+
+        width:750px;
+    }
+}
+@media screen and (min-width:800px){
+    main>div{
+        font-size:5em;
+    }
+}
+@media screen and (min-width:1000px){
+    body{
+        width:980px;
+    }
+    nav{
+        width:980px;
+    }
+    section:first-of-type{
+
+        width:980px;
+    }
+}

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/labo_11/HomeL11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herhalings/Berisa/BerisaBV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herhalings/Berisa/CSS/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,13 @@
       <workItem from="1670572177026" duration="2861000" />
       <workItem from="1670668185559" duration="10050000" />
       <workItem from="1671004861524" duration="6036000" />
-      <workItem from="1671044853282" duration="1655000" />
+      <workItem from="1671044853282" duration="2458000" />
+      <workItem from="1671613399657" duration="2317000" />
+      <workItem from="1672047290376" duration="5286000" />
+      <workItem from="1672217869961" duration="4135000" />
+      <workItem from="1672223030500" duration="3240000" />
+      <workItem from="1672242500971" duration="54000" />
+      <workItem from="1672242682883" duration="4223000" />
     </task>
     <servers />
   </component>
