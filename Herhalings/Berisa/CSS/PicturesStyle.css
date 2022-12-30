@@ -1,0 +1,54 @@
+table{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:yellowgreen;
+}
+h1{
+    text-align:center;
+    color:limegreen;
+}
+body{
+    background-color:darkgreen;
+}
+body{
+    width:auto;
+
+}
+nav>a{
+    margin-left:-5px;
+    color:limegreen;
+    padding:10px;
+    border-right:black solid 1px;
+    text-decoration: none;
+}
+nav>a:hover{
+    background-color:limegreen;
+    color:forestgreen;
+}
+
+
+header>a>h1{
+    float:left;
+    font-size:50px;
+    margin:30px;
+    color:yellowgreen;
+}
+header{
+    background-color:forestgreen;
+    padding-bottom:120px;
+    height:auto;
+}
+header>a>img{
+    width:100px;
+    heigth:auto;
+    float:left;
+    margin:10px;
+
+}
+header>nav{
+    float:right;
+    font-size:200%;
+    margin-top:40px;
+    margin-right:25px;
+
+}

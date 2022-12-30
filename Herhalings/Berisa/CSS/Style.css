@@ -1,25 +1,27 @@
 body{
     width:auto;
-
+    background-color:darkgreen;
 }
-header>h1{
+
+
+header>a>h1{
     float:left;
     font-size:50px;
     margin:30px;
     color:yellowgreen;
 }
-h2{
-    margin:0;
-}
 header{
     background-color:forestgreen;
     padding-bottom:120px;
+    height:auto;
+    border-radius:10px;
 }
-header>img{
+header>a>img{
     width:100px;
     heigth:auto;
     float:left;
     margin:10px;
+    border-radius:100%;
 
 }
 header>nav{
@@ -29,25 +31,32 @@ header>nav{
     margin-right:25px;
 
 }
-nav>a:last-child{
-
+h2{
+    margin:0;
 }
 nav>a{
     margin-left:-5px;
     color:limegreen;
     padding:10px;
     border-right:black solid 1px;
+    text-decoration: none;
 }
 nav>a:hover{
     background-color:limegreen;
     color:forestgreen;
+    text-decoration: none;
 }
 main>section{
     margin-top:10px;
+
     background-image:linear-gradient(90deg, rgba(238,4,93,1) 0%, rgba(238,4,93,0) 38%),url("../Images/wide flower.jpg");
     background-size:cover;
     height:150px;
 
     color:white;
+}
+main>section>div{
+    padding-top:10px;
+    padding-left:10px;
 }
 
