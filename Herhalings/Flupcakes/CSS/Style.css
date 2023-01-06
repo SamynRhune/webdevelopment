@@ -1,0 +1,22 @@
+body{
+    background-image:url("../Images/backgroundcupcake.png");
+    background-size:50%;
+}
+header{
+    background-color:rosybrown;
+
+}
+header>nav{
+    text-align:right;
+}
+ul{
+    list-style:none;
+    display:inline-block;
+}
+li{
+    display:inline;
+}
+h1{
+    display:inline-block;
+
+}

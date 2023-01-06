@@ -2,6 +2,31 @@
 div>header:first-child{
     order:1
 }
+body>div{
+    display:grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows:repeat(5,auto);
+
+}
+.gridHeader{
+    grid-row:1;
+}
+.gridNav{
+    grid-row:2;
+}
+.gridMain{
+    grid-row:3;
+}
+.gridAside{
+    grid-row:4;
+}
+.gridFooter{
+    grid-row:5;
+}
+body>div:nth-child(n){
+    display:grid;
+}
+
 
 body{
     text-align:center;
@@ -14,9 +39,7 @@ body{
     font-size: 16px;
     margin-top: 12px;
 }
-.gridje{
-    display:grid;
-}
+
 main{
     background-color:lightyellow;
     grid-column-start:1;
@@ -56,42 +79,60 @@ p{
     padding-bottom: 12px;
 
 }
-@media screen and (min-width:786px){
-    body{
-        display:grid;
-        grid-template-columns:repeat(20,auto);
-        grid-template-rows:repeat(3,auto);
-        background-color:green;
+@media screen and (min-width:786px) {
+    body > div {
+        display: grid;
+        grid-template-columns: repeat(20, auto);
+        grid-template-rows:repeat(3, auto);
+
     }
-    header{
-        padding-bottom:25px;
-        grid-column-start:1;
-        grid-column-end:21;
-        grid-row:1;
+
+    body {
+       ;
     }
-    nav{
-        float:left;
-        grid-column-start:2;
-        grid-column-end:21;
+
+    .gridHeader {
+        grid-column-start: 1;
+        grid-column-end: 20;
+
+
+    }
+
+    .gridNav {
+        grid-column-start: 2;
+        grid-column-end: 4;
+
+    }
+
+    .gridMain {
+        grid-column-start: 4;
+        grid-column-end: 17;
         grid-row:2;
     }
-aside{
-    float:right;
-    grid-column-start:19;
-    grid-column-end:21;
-    grid-row:2;
 
-}
-main{
-    grid-column-start:2;
-    grid-column-end:19;
-    grid-row:2;
+    .gridAside {
+        grid-column-start: 17;
+        grid-column-end: 19;
+        grid-row:2;
 
-}
-footer{
-    grid-column-start:1;
-    grid-column-end:21;
-    grid-row:3;
-}
+    }
 
+    .gridFooter {
+        grid-column-start: 1;
+        grid-column-end: 20;
+    }
+
+    .leegL {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+    }
+
+    .leegR {
+        display: grid;
+        grid-column-start: 19;
+        grid-column-end: 20;
+
+    }
 }

@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Herhalings/Berisa/CSS/PicturesStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Herhalings/Berisa/Pictures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herhalings/Berisa/CSS/ProductsStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herhalings/Berisa/Products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herhalings/Flupcakes/CSS/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Herhalings/Flupcakes/Flupcakes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Herhalings/Berisa/BerisaBV.html" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/Berisa/BerisaBV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herhalings/Berisa/CSS/PicturesStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/Berisa/CSS/PicturesStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Herhalings/Berisa/CSS/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/Berisa/CSS/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herhalings/Berisa/Pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/Berisa/Pictures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Herhalings/eindoefeningBeginSituatie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/eindoefeningBeginSituatie/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Herhalings/eindoefeningBeginSituatie/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/eindoefeningBeginSituatie/style/style.css" afterDir="false" />
     </list>
@@ -116,6 +120,10 @@
       <workItem from="1672242500971" duration="54000" />
       <workItem from="1672242682883" duration="4223000" />
       <workItem from="1672387417392" duration="5990000" />
+      <workItem from="1672418506254" duration="175000" />
+      <workItem from="1672672311891" duration="5978000" />
+      <workItem from="1672845454068" duration="4760000" />
+      <workItem from="1673022773747" duration="1919000" />
     </task>
     <servers />
   </component>

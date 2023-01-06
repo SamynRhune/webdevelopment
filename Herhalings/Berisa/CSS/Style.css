@@ -7,18 +7,23 @@ body{
 header>a>h1{
     float:left;
     font-size:50px;
-    margin:30px;
+    margin-right:30px;
     color:yellowgreen;
+    margin-top:30px;
+    margin-left:30px;
+    margin-bottom:0px;
 }
 header{
     background-color:forestgreen;
     padding-bottom:120px;
-    height:auto;
+    height:120px;
     border-radius:10px;
+
 }
+
 header>a>img{
     width:100px;
-    heigth:auto;
+    height:auto;
     float:left;
     margin:10px;
     border-radius:100%;
@@ -33,6 +38,18 @@ header>nav{
 }
 h2{
     margin:0;
+    text-decoration:none;
+
+}
+header>a{
+    text-decoration: none;
+    color:yellowgreen;
+    float:left;
+
+    }
+header>a>h2{
+    padding-left:35px;
+    font-size:1em;
 }
 nav>a{
     margin-left:-5px;
@@ -49,9 +66,9 @@ nav>a:hover{
 main>section{
     margin-top:10px;
 
-    background-image:linear-gradient(90deg, rgba(238,4,93,1) 0%, rgba(238,4,93,0) 38%),url("../Images/wide flower.jpg");
+    background-image:linear-gradient(270deg, rgba(238,4,93,1) 0%, rgba(238,4,93,0) 75%),url("../Images/11.jpg");
     background-size:cover;
-    height:150px;
+    height:200px;
 
     color:white;
 }
@@ -59,4 +76,40 @@ main>section>div{
     padding-top:10px;
     padding-left:10px;
 }
+main>aside
+{
+    float:right;
+    width:200px;
+    background-color:forestgreen;
+    margin-top:10px;
+    padding:10px;
+    border:black dashed 2px;
+    border-radius:10px;
 
+}
+main>aside>h3{
+    font-size:35px;
+    color:yellowgreen;
+    padding:0px 1px 4px 3px;
+    margin:0px;
+
+}
+main>aside>article{
+    border:darkgreen solid 1px;
+    padding:5px;
+    background-color:yellowgreen;
+    margin-top:5px;
+}
+main>aside>article>h4{
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:center;
+    font-size:20px;
+    color:darkgreen;
+
+}
+@media screen and (min-width:742px){
+    header{
+        height:0px;
+    }
+}
