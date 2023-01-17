@@ -1,0 +1,180 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+body{
+    margin:auto;
+    font-family:Helvetica;
+    width:600px;
+
+}
+
+h1{
+    text-transform:uppercase;
+    font-size: 2.5em;
+    border-bottom:2px black solid;
+    color:black;
+}
+h2{
+    font-size:150%;
+
+}
+/** header **/
+header>img{
+    height:50px;
+
+}
+header{
+    border-bottom:1px #ebe8e8 solid;
+    margin:auto;
+
+}
+
+/** nav **/
+nav{
+    display:grid;
+    grid-template-columns:repeat(7,auto);
+    grid-auto-rows:auto;
+    padding:10px 0px 10px 0px;
+    text-transform:uppercase;
+    color:#5b4746;
+}
+
+/** button**/
+nav>a{
+    padding:10px 0px 10px 0px;
+    margin:auto;
+}
+nav>a:nth-child(n-1){
+    border-right:1px #ebe8e8 solid;
+    color: #5b4746;
+    font-size:13px;
+
+}
+nav>a:hover{
+    border-bottom: 2px solid #fff100;
+}
+
+
+/** main **/
+main>h2{
+    background-image:url("Images/headerimage.jpg");
+    background-size:cover;
+    height:500px;
+    width:100%;
+    color:white;
+    margin:auto;
+    text-align: center;
+    padding-top:240px;
+    text-shadow:#8d99ae 2px 2px;
+}
+
+/** main recipes **/
+
+section{
+    margin-top:50px;
+}
+
+section>div:nth-child(2){
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    grid-gap:15px;
+
+}
+main>section:nth-child(2)div>div:nth-child(odd){
+    margin-right:1.5em;
+    padding-top:1em;
+    border-top: #ddd solid 1px;
+
+}
+
+/** item small title **/
+div>span:nth-child(5n-4){
+    text-transform: capitalize;
+    font-size:1.2em;
+    color:#ff4d56;
+    letter-spacing:1px;
+}
+
+/** item title **/
+div>h2:nth-child(5n-3){
+    text-decoration:none;
+}
+
+/** item body **/
+div>span:nth-child(5n-2){
+    color:#666;
+    line-height:2em;
+}
+
+/** item auteur **/
+div>span:nth-child(5n-1){
+    padding-right:10px;
+    border-right: 1px solid #ebe8e8 ;
+    font-style:italic;
+
+}
+
+/** item timestamp **/
+div>span:nth-child(5n){
+    color:#666;
+    padding-left:10px;
+}
+
+/** main recommended **/
+main>section:nth-child(3){
+    margin-top:50px;
+
+}
+
+/** main recommended lijst **/
+div>div>img{
+    margin-bottom:25px;
+}
+
+/** footer **/
+
+footer{
+    display:inline;
+    width:100%;
+    line-height: 2em;
+    border-top:1px solid #ebe8e8;
+}
+
+footer>div:nth-child(even){
+    width:50%;
+    float:right;
+    text-align:left;
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+
+footer>div:nth-child(odd){
+    width:50%;
+    float:left;
+    text-align:right;
+    padding:20px;
+}
+
+/** verschillende groottes **/
+@media screen and (min-width:770px){
+    /** header **/
+    body{
+        width:750px;
+    }
+}
+@media screen and (min-width:800px){
+    main>h2{
+        font-size:5em;
+    }
+}
+@media screen and (min-width:1000px){
+    /** header **/
+    body{
+        width:980px;
+    }
+}

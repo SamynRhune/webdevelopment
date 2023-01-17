@@ -1,22 +1,71 @@
 body{
     background-image:url("../Images/backgroundcupcake.png");
     background-size:50%;
+    margin:0px;
 }
+
+/** header **/
 header{
     background-color:rosybrown;
+    border-radius:0px 0px 20px 20px;
 
+}
+header>h1{
+    color:saddlebrown;
+    font-size: 3em;
+    padding-left:30px;
 }
 header>nav{
     text-align:right;
+    float:right;
+    padding-top:14px;
+    font-size:1.7em;
+    color:saddlebrown;
+
 }
+
+header>nav>ul>li:hover{
+    background-color:sandybrown;
+
+}
+
 ul{
     list-style:none;
     display:inline-block;
 }
 li{
     display:inline;
+    padding:7px 10px 7px 7px;
+    border-radius: 5px;
+
+}
+li:nth-child(n-1){
+    border-right:1px sandybrown solid;
+}
+li:last-child{
+    border-right:none;
 }
 h1{
     display:inline-block;
 
+}
+
+/** aside **/
+aside>article>img{
+    height:auto;
+    width:200px;
+    border-radius:100%;
+}
+aside>article{
+    float:left;
+    border: 2px saddlebrown dashed;
+    margin-top:25px;
+    margin-left: 20px;
+    padding:10px;
+    text-align:center;
+    background-color:sandybrown;
+
+}
+aside>article>h2{
+    margin-top:0px;
 }
