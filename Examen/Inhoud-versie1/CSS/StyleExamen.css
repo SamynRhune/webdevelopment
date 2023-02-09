@@ -1,0 +1,171 @@
+/** algemeen **/
+body{
+    width:auto;
+    font-family:"Segoe UI";
+    font-size: 1.2em;
+    background-image:url("../Images/background.png");
+    background-repeat:repeat-x;
+    background-color: #00d4ef;
+}
+
+/** header **/
+header>nav>ul>li{
+    display:inline;
+    padding-top:10px;
+    float:left;
+
+
+}
+header>nav>ul>li:last-child{
+    float:right;
+}
+header{
+    background-color:rgb(193,156,214);
+    height:50px;
+
+}
+header>nav>ul>li>a{
+    font-weight:bold;
+    color:#000ece;
+    text-decoration: none;
+    padding:0.5em;
+
+}
+header>nav>ul>li>a:hover{
+    text-decoration:underline ;
+}
+/** poster **/
+main>img{
+    height:300px;
+    width:94%;
+    padding:1em;
+    background-color:whitesmoke;
+}
+/** paginatitel **/
+
+main>h1{
+    font-size:3em;
+    padding: 10px 0px 30px 0px;
+}
+
+/** inhoudstafel **/
+main>div>div>aside{
+    border-right:1px solid black;
+
+
+}
+main>div>div>aside>h2{
+    font-size:1.8em;
+
+}
+main>div>div>aside>ol{
+    list-style:upper-roman;
+    padding-left:25px;
+    font-size:90%;
+}
+main>div>div>aside>ol>li>ul{
+    list-style:square;
+    padding-left:10px;
+    font-size: 90%;
+}
+main>div>div>aside>ol>li:nth-child(2)>ul>li:nth-child(3){
+    font-weight: bold;
+}
+/** article **/
+main>div>div>section>h2{
+    font-size:2.1em;
+    ;
+
+}
+main>div>div>section>article>div{
+    background-color:#db97ff;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    padding:0.5em;
+}
+main>div>div>section>article>div>h3{
+    font-size:1.1em;
+    font-weight: bold;
+    background-image: url("../Images/note.svg");
+    background-repeat:no-repeat;
+    padding-left:30px;
+    background-size:25px 25px;
+}
+
+/** tabel **/
+table{
+    border:dotted black 1px;
+}
+
+thead>tr>th{
+    background-color: #db97ff;
+
+}
+tbody>tr:first-child>th{
+    background-color: #f3e4fb;
+}
+tbody>tr:first-child>th,thead>tr>th{
+    border-bottom:black solid 3px;
+    text-align:center;
+}
+tbody>tr>td,tfoot>tr>td{
+    padding:5px;
+}
+tbody>tr>td:first-child, tfoot>tr>td:first-child{
+    border-right:solid black 1px;
+    float:right;
+}
+tbody>tr:nth-child(odd),tfoot>tr{
+    background-color:#bebebe;
+}
+tbody>tr:hover,tfoot>tr:hover{
+    background-color: #672d87;
+    color:white;
+}
+/** logos **/
+.gridgroup{
+    grid-template-rows: repeat(1,auto);
+    grid-template-columns: repeat(6,auto);
+    display:grid;
+}
+main>div>div>div>img{
+    width:16.65%;
+    height:auto;
+    padding:12px;
+}
+
+/** footer **/
+footer>p{
+    background-color:#eee;
+    font-size:0.75em;
+    margin:25px;
+    padding:5px;
+    text-align:right;
+    font-style:italic;
+}
+@media screen and (max-width: 991px){}
+ aside{
+    display:none;
+}
+
+
+@media screen and (min-width:992px){
+    body{
+        width: 992px;
+    }
+    aside{
+        display:block;
+    }
+    .gridgroup{
+        grid-template-rows: repeat(6,auto);
+        grid-template-columns: repeat(1,auto);
+        display:grid;
+    }
+    main>div>div>div>img{
+        width:8%;
+        height:auto;
+    }
+    aside{
+        display:inline-block;
+    }
+}

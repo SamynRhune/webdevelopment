@@ -1,0 +1,13 @@
+tbody>tr>th:first-child{
+    background-color:lightskyblue;
+}
+tbody>tr:first-child>th:first-child{
+    background-color:white;
+}
+tfoot>tr>th{
+    background-color:lightskyblue;
+}
+
+tfoot>tr>td:nth-child(n+5){
+    background-color:red;
+}

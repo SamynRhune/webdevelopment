@@ -1,0 +1,118 @@
+body{
+    width:960px;
+    margin:auto;
+    background-image:url("../fotos/pagebackground.png");
+    background-position-x: center;
+    background-size: 1032px;
+    background-repeat:repeat-y;
+    font-family:Helvetica;
+}
+/** header **/
+header{
+    height:200px;
+    background-image:url("../fotos/bgsky3.jpg");
+    text-align:center;
+    color:darkblue;
+
+}
+header>h1{
+    font-size:300%;
+    font-weight: bold;
+    font-style:italic;
+    margin-top:0px;
+
+}
+header>p{
+    font-size:240%;
+}
+header>img{
+    position:relative;
+    margin-top:-200px;
+    margin-right:-500px;
+}
+
+/** aside **/
+aside{
+    width:250px;
+    background-color:#dddddd;
+    border:1px #999999 solid;
+    float:right;
+
+}
+aside>h3{
+    color:white;
+    background-color:blue;
+    font-size:120%;
+    text-align:center;
+}
+
+aside>p{
+    color:#666666;
+    font-size:90%;
+    padding:10px;
+}
+
+/** main **/
+main{
+    width:700px;
+    padding-right:10px;
+
+}
+main>div{
+    float:left;
+    padding:0px 20px 0px 20px;
+}
+main>article>p{
+    padding: 20px 30px 20px 0px;
+}
+main>article>p>span{
+    font-weight: bold;
+    font-style:italic;
+    color:blue;
+}
+
+/** gallery **/
+
+section{
+    background-color:#999999;
+    padding:10px;
+    display:inline-block;
+}
+section>div>img{
+    padding:10px;
+    background-color:white;
+    border: 1px dashed #999999;
+
+}
+section>div{
+    width:180px;
+    height:180px;
+    display:inline-block;
+    float:left;
+    padding:10px;
+
+    margin:10px;
+}
+
+/** footer **/
+footer{
+    background-color: #666666;
+    color:white;
+    font-size:20px;
+
+}
+
+footer>div {
+    padding-left: 120px;
+    display:inline-block;
+
+}
+a:hover{
+    color:red;
+}
+
+/** copyright **/
+body>div>p{
+    text-align:center;
+
+}
