@@ -1,0 +1,22 @@
+div>div{
+    width:100px;
+    height:100px;
+    background-color:rgb(50,50,50);
+    margin-left:250px;
+
+}
+p{
+    float:left;
+}
+body>div{
+    border:5px gray solid;
+    border-radius: 10px;
+    padding:10px 10px 10px 10px;
+    width:350px;
+
+
+}
+body>div>div{
+    border-radius:10px;
+    border:2px black solid;
+}
