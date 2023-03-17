@@ -1,6 +1,7 @@
 body{
     width:auto;
     background-color:darkgreen;
+    margin:0px;
 }
 
 
@@ -12,12 +13,20 @@ header>a>h1{
     margin-top:30px;
     margin-left:30px;
     margin-bottom:0px;
+
 }
 header{
+
     background-color:forestgreen;
     padding-bottom:120px;
     height:120px;
     border-radius:10px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 
 }
 
@@ -63,12 +72,15 @@ nav>a:hover{
     color:forestgreen;
     text-decoration: none;
 }
-main>section{
-    margin-top:10px;
 
-    background-image:linear-gradient(270deg, rgba(238,4,93,1) 0%, rgba(238,4,93,0) 75%),url("../Images/11.jpg");
+/* Vanaf hier de website */
+
+main>section:first-child{
+    margin-top:150px;
+
+    background-image:linear-gradient(270deg, rgba(238,4,93,1) 0%, rgba(238,4,93,0) 75%),url("../Images/background.png");
     background-size:cover;
-    height:200px;
+    height:300px;
 
     color:white;
 }
@@ -108,8 +120,46 @@ main>aside>article>h4{
     color:darkgreen;
 
 }
+/* Alles onder de foto*/
+#STP{
+    color:limegreen;
+    background-color:forestgreen;
+}
+#STP>h2{
+    color:yellowgreen;
+}
+#slogan{
+    background-color:rgb(0,70,0);
+    color:white;
+    font-family:"Book Antiqua";
+    font-weight: bold;
+    text-align: center;
+    font-size:25px;
+    padding:5px 0px 5px 0px;
+
+}
+#tegel1{
+    background-image:url("../Images/1b.png");
+}
+#tegel2{
+    background-image:url("../Images/cg2.png");
+}
+#tegel3{
+    background-image: url("../Images/san marzono.jpg");
+}
+
+
 @media screen and (min-width:742px){
     header{
         height:0px;
+    }
+    #STP{
+        margin:20px 250px 20px 30px;
+        padding:10px 10px 10px 10px;
+    }
+    #assortiment>div{
+        height:300px;
+        width:300px;
+        display:grid;
     }
 }

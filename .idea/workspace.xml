@@ -5,6 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Deenhet/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Deenhet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Formvalidatie/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Formvalidatie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Formwaarden/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Formwaarden/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Gemeenten/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Gemeenten/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Trigrams/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Trigrams/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herhalings/Berisa/BerisaBV.html" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/Berisa/BerisaBV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herhalings/Berisa/CSS/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Herhalings/Berisa/CSS/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J1Semester2/Labo_4/ManVanAn/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/Labo_4/ManVanAn/Scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,6 +75,7 @@
       <recent name="C:\Users\rhune\OneDrive\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\leeg\Css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rhune\OneDrive - Hogeschool VIVES\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\J1Semester2\Labo_5" />
       <recent name="C:\Users\rhune\OneDrive\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\Herhalings\Berisa\CSS" />
     </key>
   </component>
@@ -134,7 +150,11 @@
       <workItem from="1678026096147" duration="3458000" />
       <workItem from="1678261713895" duration="9736000" />
       <workItem from="1678295823832" duration="3268000" />
-      <workItem from="1678347932355" duration="1244000" />
+      <workItem from="1678347932355" duration="1863000" />
+      <workItem from="1678570092626" duration="7006000" />
+      <workItem from="1678866620964" duration="9367000" />
+      <workItem from="1678961925845" duration="13398000" />
+      <workItem from="1679061656731" duration="1098000" />
     </task>
     <servers />
   </component>

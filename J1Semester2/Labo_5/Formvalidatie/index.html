@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="index.html">
+    <label for="voornaam"></label><input placeholder="voornaam" type="text"  id="voornaam"><span id="errorvn"></span><br>
+    <label for="familienaam"></label><input placeholder="achternaam" type="text" required  id="familienaam"><span id="erroran"></span><br>
+    <label for="geboortedatum"></label><input  type="text" required id="geboortedatum" placeholder="jjjj-mm-dd geboortedatum" ><span id="errorgd"></span><br>
+    <label for="mail"></label><input placeholder="email" type="text" required id="mail"><span id="errorem"></span><br>
+    <label for="kinderen"></label><input placeholder="aantal kinderen" type="number" min="0" max="99" id="kinderen"><span id="errorkind"></span><br>
+</form>
+    <input type="button" id="valideer" value="valideer">
+
+<script type="text/javascript" charset="utf-8" src="Scripts/index.js"></script>
+</body>
+</html>
+
+
+
+
