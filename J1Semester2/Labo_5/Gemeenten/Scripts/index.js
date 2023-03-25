@@ -6,7 +6,7 @@ const setup = () => {
     while(gemeentes.at(-1) !== "stop"){
 
         gemeentes.push(window.prompt("Gemeente"));
-
+//  prompt("geef een gemeente")
     }
     gemeentes.pop();
     gemeentes.sort();
