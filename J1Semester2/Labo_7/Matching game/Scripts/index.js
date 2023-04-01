@@ -119,13 +119,15 @@ const setup = () => {
 
 
         for (let i = 0; i < kaarten.length; i++) {
-            console.log(global.TWEEDE_KAART + "voor if")
+            //console.log(global.TWEEDE_KAART + "voor if")
 
                 kaarten[i].addEventListener('click', function () {
                     if (global.TWEEDE_KAART === null) {
                         turnCardToPicture(kaarten[i]);
+
                     }
                 });
+
 
         }
 
@@ -133,6 +135,10 @@ const setup = () => {
         const turnCardToPicture = (kaart) => {
             let number = kaart.getAttribute("class").charAt(0);
             kaart.setAttribute("src", "Images/" + number + ".png");
+            let audio = new Audio("Sounds/" + number + ".mp3");
+            console.log(audio);
+            audio.play();
+
 
             //Eerste kaart is opslaan
             if (global.EERSTE_KAART == null) {
