@@ -29,8 +29,6 @@ const setup = () => {
     }
     let speelveld = document.querySelector("div");
 
-
-
     //steekt kaarten in random volgorde in array
     let voorlopig = [];
     for(let i = 0; i < global.AANTAL_KAARTEN*2;i++){
@@ -39,30 +37,20 @@ const setup = () => {
         voorlopig.splice(index,0,wisselkaart);
         kaarten.shift();
     }
-    console.log(kaarten);
-    console.log(voorlopig);
     kaarten = voorlopig;
-    console.log(kaarten);
 
     for (let i = 0; i < kaarten.length; i++) {
         speelveld.appendChild(kaarten[i]);
     }
 
-
-//speelveld aanmaken
-
+//speelveld grootte aanmaken
     const sizeUpdate = () => {
 
-
-        let spelbord = document.getElementById("spelbord");
         let breedteX = (window.innerWidth -5 );
         let breedteY = (window.innerHeight -5 );
         let indexHB = breedteY/breedteX;
 
-        //spelbord.style.width = window.innerWidth + "px";
-        //spelbord.style.height = window.innerHeight + "px";
-
-
+        //grootte van de kaarten
         for (let i = 0; i < kaarten.length; i++) {
             //BREED
             if(indexHB <= (global.AANTAL_VERTICAAL/global.AANTAL_HORIZONTAAL)){
@@ -87,15 +75,6 @@ const setup = () => {
 
             }else{
                 //SMAL
-                if(indexHB<1){
-                    let kaart = kaarten[i];
-                    let tustijd = (breedteX / global.AANTAL_HORIZONTAAL)-5;
-                    kaart.style.marginLeft = "0px";
-                    kaart.style.marginRight = "0px";
-                    kaart.setAttribute("height",tustijd );
-                    kaart.setAttribute("width", "auto");
-                }else {
-
 
                     let kaart = kaarten[i];
                     let tustijd = (breedteX / global.AANTAL_HORIZONTAAL)-5;
@@ -103,7 +82,7 @@ const setup = () => {
                     kaart.style.marginRight = "0px";
                     kaart.setAttribute("height",tustijd );
                     kaart.setAttribute("width", "auto");
-                }
+
             }
 
         }
@@ -144,12 +123,10 @@ const setup = () => {
             if (global.EERSTE_KAART == null) {
                 global.EERSTE_KAART = kaart;
             } else {
+                //tweede kaart opslaan
                 global.TWEEDE_KAART = kaart;
 
                 controleKaarten();
-
-
-
             }
         }
 
@@ -163,36 +140,31 @@ const setup = () => {
 
             if (eerstekaartKlasse.charAt(0) === tweedekaartKlasse.charAt(0)) {
                 if (eerstekaartKlasse === tweedekaartKlasse) {
+
                     //2 keer exact dezelfde kaart
-                    console.log("Je mag niet 2 keer dezelfde kaart kiezen");
-                    let timer = setTimeout(function() {turnCardsToBackground(kaart1,kaart2)}, 500);
-                    console.log(global.TWEEDE_KAART + "voor stopbeurt");
-                    let timer2 = setTimeout(stopBeurt,600);
-                    console.log(global.TWEEDE_KAART + "na stopbeurt");
+                    global.TWEEDE_KAART = null;
 
                 } else {
                     // de 2 juiste kaarten
+                    let timer = setTimeout(function() {setHidden(kaart1,kaart2)}, 1500)
+                    let timer2 = setTimeout(stopBeurt,1600);
 
-
-                    let timer = setTimeout(function() {setHidden(kaart1,kaart2)}, 500)
-                    console.log("Je hebt het juist");
-                    let timer2 = setTimeout(stopBeurt,600);
                 }
             } else {
                 // verkeerde kaart
-                console.log("Je duwde op een andere kaart");
-                let timer = setTimeout(function() {turnCardsToBackground(kaart1,kaart2)}, 500);
-                let timer2 = setTimeout(stopBeurt,600);
+                let timer = setTimeout(function() {turnCardsToBackground(kaart1,kaart2)}, 1500);
+                let timer2 = setTimeout(stopBeurt,1600);
 
             }
         }
         //kaart omdraaien
         const turnCardsToBackground = (kaart1,kaart2) => {
-
+            let audio = new Audio("Sounds/flipcard.mp3");
+            audio.play();
             kaart1.setAttribute("src", "Images/achtergrond.png");
             kaart2.setAttribute("src", "Images/achtergrond.png");
-        }
 
+        }
 
         //geselecteerde kaarten verbergen
         const setHidden = (kaart1,kaart2) => {
@@ -201,12 +173,12 @@ const setup = () => {
         }
     }
 
-
     const startBeurt = () => {
         if (global.TWEEDE_KAART == null) {
             clickCard();
         }
     }
+    
     //geselecteerde kaarten op null zetten
     const stopBeurt = () => {
 
