@@ -148,7 +148,7 @@ const setup = () => {
                     // de 2 juiste kaarten
                     let timer = setTimeout(function() {setHidden(kaart1,kaart2)}, 1500)
                     let timer2 = setTimeout(stopBeurt,1600);
-                    let timer3 = setTimeout(rightPing,"1000");
+                    let timer3 = setTimeout(rightPing,1000);
 
 
                 }
