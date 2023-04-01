@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Herhalings/Cocktail/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Herhalings/Cocktail/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes-1/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes_2/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes_2/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes_2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes_3/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes_3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_7/Matching game/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_7/Matching game/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_7/Matching game/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J1Semester2/Labo_5/Gemeenten/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/Labo_5/Gemeenten/Scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/Labo_6/Opdracht_nodes-1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -159,6 +149,13 @@
       <workItem from="1679471605828" duration="8253000" />
       <workItem from="1679498642669" duration="4318000" />
       <workItem from="1679515577250" duration="1940000" />
+      <workItem from="1679752419855" duration="648000" />
+      <workItem from="1680074231400" duration="9687000" />
+      <workItem from="1680097478079" duration="69000" />
+      <workItem from="1680101900494" duration="12870000" />
+      <workItem from="1680183683606" duration="9019000" />
+      <workItem from="1680284495969" duration="5957000" />
+      <workItem from="1680340821534" duration="1352000" />
     </task>
     <servers />
   </component>

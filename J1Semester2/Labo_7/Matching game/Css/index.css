@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+}
+#spelbord{
+    horiz-align: center;
+
+}
+#spelbord > img{
+
+}
+
+.picture{
+    width:100px;
+    height: auto;
+}
