@@ -4,7 +4,7 @@ let global = {
      AANTAL_KAARTEN:6,
     EERSTE_KAART:null,
     TWEEDE_KAART:null,
-    AAN_DE_BEURT:1
+
 };
 
 
@@ -148,6 +148,8 @@ const setup = () => {
                     // de 2 juiste kaarten
                     let timer = setTimeout(function() {setHidden(kaart1,kaart2)}, 1500)
                     let timer2 = setTimeout(stopBeurt,1600);
+                    let timer3 = setTimeout(rightPing,"1000");
+
 
                 }
             } else {
@@ -178,7 +180,7 @@ const setup = () => {
             clickCard();
         }
     }
-    
+
     //geselecteerde kaarten op null zetten
     const stopBeurt = () => {
 
@@ -186,6 +188,10 @@ const setup = () => {
             global.TWEEDE_KAART = null;
 
 
+    }
+    const rightPing = () => {
+        let audio = new Audio("Sounds/ping.mp3");
+        audio.play();
     }
     startBeurt();
 }
