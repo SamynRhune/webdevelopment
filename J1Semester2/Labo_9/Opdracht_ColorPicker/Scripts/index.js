@@ -37,6 +37,8 @@ const setup = () => {
         newBlock.style.backgroundColor = `rgb(${redvalue} , ${greenvalue}, ${bluevalue})`;
         newBlock.style.margin = '0px 0px 0px 5px';
 
+
+
         lijst.push(newBlock.style.backgroundColor);
 
 
@@ -64,6 +66,7 @@ const setup = () => {
         let json = JSON.parse(localStorage.getItem("list"));
 
         json.splice(json.indexOf(stijl),1);
+        lijst.splice(json.indexOf(stijl),1);
 
         localStorage.setItem("list",JSON.stringify(json));
     }
