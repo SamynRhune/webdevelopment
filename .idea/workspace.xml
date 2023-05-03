@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_10/Css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_10/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_10/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_10/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J1Semester2/Labo_9/Opdracht_ColorPicker/Scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/Labo_9/Opdracht_ColorPicker/Scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,7 +48,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rhune/OneDrive - Hogeschool VIVES/Documenten/school/2022-23/Semester 1/Web Development/Github/webdevelopment&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rhune/OneDrive - Hogeschool VIVES/Documenten/school/2022-23/Semester 1/Web Development/Github/webdevelopment/J1Semester2/Labo_10/Css&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -58,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rhune\OneDrive - Hogeschool VIVES\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\J1Semester2\Labo_10\Css" />
       <recent name="C:\Users\rhune\OneDrive\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\leeg\Css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -161,7 +165,9 @@
       <workItem from="1682491821701" duration="607000" />
       <workItem from="1682493821962" duration="8097000" />
       <workItem from="1682584050029" duration="2021000" />
-      <workItem from="1682780097393" duration="392000" />
+      <workItem from="1682780097393" duration="739000" />
+      <workItem from="1683096971765" duration="10765000" />
+      <workItem from="1683109592206" duration="645000" />
     </task>
     <servers />
   </component>

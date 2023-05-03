@@ -1,0 +1,43 @@
+div>div>div{
+    color:white;
+    border:5px white solid;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+div>div>div>h2{
+    margin-bottom: 7px;
+}
+div>div>div>span{
+    margin-bottom: 7px;
+}
+div>div>div>input{
+    margin-top: 9px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 3px;
+}
+section>input{
+    width:100%;
+}
+section>label>input{
+    width:100%;
+}
+#knop{
+    background-color: forestgreen;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    height:30px;
+}
+#small{
+    color:darkgray;
+    font-size: 12px;
+}
+h1{
+    font-size: 3em;
+    margin-bottom:10px;
+}
+body{
+    font-family: sans-serif;
+}
