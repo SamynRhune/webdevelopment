@@ -1,0 +1,23 @@
+.koppen{
+    background-color: darkblue;
+    color:white;
+    padding:4px;
+    word-wrap: break-word;
+}
+.tabellen{
+    width:300px;
+    display: inline-block;
+    border:solid 1px darkblue;
+    border-radius: 3px;
+    margin:5px;
+}
+#omhullend{
+    display: inline;
+}
+#inkom{
+    display: block;
+}
+.lijnen{
+    padding: 2px 2px 2px 5px;
+    word-wrap:break-word;
+}
