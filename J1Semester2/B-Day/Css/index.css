@@ -63,11 +63,12 @@ article p {
 }
 
 /* Stijl voor links */
+/* Stijl voor links */
 a:first-of-type{
     margin-left:50px;
 }
 a {
-    font-size: 2em;
+    font-size: 2.5vw;
     text-decoration: none;
     margin-right: 25px;
     border-right: 1px rgb(0, 74, 152) solid;
@@ -89,6 +90,19 @@ nav>img{
 
 nav>img{
 
-    width: 200px;
+    width: 25%;
     size: auto;
+}
+nav{
+    width: 90%;
+}
+main>p{
+    margin-top:50px;
+}
+.unique{
+    color: red;
+    font-weight: bold;
+}
+p>img{
+    
 }

@@ -5,37 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/Invitation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Invitation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/2d/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/2d/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/2d/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/ColorpickerPro/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/ColorpickerPro/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/ColorpickerPro/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Hitanobject/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Hitanobject/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Hitanobject/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Minesweeper/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Minesweeper/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Minesweeper/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Mix/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Mix/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Mix/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Planning/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Planning/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Planning/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Taken/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Taken/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Taken/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/TakenManager/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/TakenManager/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/TakenManager/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J1Semester2/B-Day/Css/Invitation.css" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/Invitation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J1Semester2/B-Day/Css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J1Semester2/B-Day/Invitation.html" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Invitation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J1Semester2/B-Day/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/J1Semester2/B-Day/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +203,7 @@
       <workItem from="1692812120787" duration="604000" />
       <workItem from="1696515570431" duration="4848000" />
       <workItem from="1697297849050" duration="1435000" />
-      <workItem from="1697885979702" duration="4865000" />
+      <workItem from="1697885979702" duration="6612000" />
     </task>
     <servers />
   </component>
