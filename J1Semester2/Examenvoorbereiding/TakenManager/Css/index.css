@@ -1,0 +1,12 @@
+#takenlijst>div{
+    background-color: light;
+    border-radius: 5px;
+    width:300px;
+    text-align: center;
+}
+#takenlijst{
+
+}
+#takenlijst>div{
+    display: inline-block;
+}

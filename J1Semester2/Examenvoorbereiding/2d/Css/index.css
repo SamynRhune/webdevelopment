@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+    overflow-y: hidden;
+
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}

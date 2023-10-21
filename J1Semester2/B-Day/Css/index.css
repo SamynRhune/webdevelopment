@@ -1,0 +1,94 @@
+/* Basisstijl voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav>p {
+    font-family: Lucida Console;
+    color:rgb(0, 74, 152);
+    font-size: 12px;
+
+}
+
+span{
+    font-size: 14px;
+    font-style:Italic;
+    font-weight: bold;
+}
+
+/* Stijl voor de artikels */
+article {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.special {
+    border: 2px solid red; /* Rode rand */
+    border-radius: 5px;
+    background-color: #ffcccc; /* Opvallende achtergrondkleur (lichtrood) */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3); /* Rode schaduw met meer verspreiding */
+    transition: transform 0.2s; /* Voeg een overgang toe van 0.2 seconden */
+}
+
+.special:hover {
+    transform: scale(1.05); /* Vergroot het artikel bij hover */
+}
+
+.special h2 {
+    color: #ff0000; /* Rode tekstkleur */
+    font-size: 28px; /* Grotere lettertypegrootte */
+    font-weight: bold; /* Maak de titel vetgedrukt */
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Stijl voor links */
+a:first-of-type{
+    margin-left:50px;
+}
+a {
+    font-size: 2em;
+    text-decoration: none;
+    margin-right: 25px;
+    border-right: 1px rgb(0, 74, 152) solid;
+    padding-right:25px;
+    margin-top: -10px;
+
+}
+
+a:hover {
+
+    color: rgb(0, 74, 152);
+
+    font-weight: bold;
+}
+nav>img{
+    width:300px;
+    height: auto;
+}
+
+nav>img{
+
+    width: 200px;
+    size: auto;
+}

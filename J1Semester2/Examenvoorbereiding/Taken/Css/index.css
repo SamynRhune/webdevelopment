@@ -1,0 +1,24 @@
+#inputvelden>label{
+    width:100%;
+    display: block;
+
+}
+label>input{
+    text-align:right;
+
+}
+
+#toevoegen{
+    width:144px;
+    height:144px;
+    font-size:100px;
+}
+#takenplan{
+
+
+}
+#takenplan>div{
+    display:inline-block;
+     width:20%;
+    height:20%;
+}

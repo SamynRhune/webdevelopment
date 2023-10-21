@@ -1,0 +1,11 @@
+#speelveld{
+    border: black 1px solid;
+
+
+}
+#speelveld>div{
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: -1px;
+    overflow: hidden;
+}

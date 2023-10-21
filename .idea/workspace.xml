@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c246ec-2005-487c-aa4e-db7ff6b375a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_11/tafels_oplossing_start/Opdracht/Css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_11/tafels_oplossing_start/Opdracht/Scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J1Semester2/Labo_11/tafels_oplossing_start/Opdracht/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/Invitation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Invitation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/B-Day/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/2d/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/2d/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/2d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/ColorpickerPro/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/ColorpickerPro/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/ColorpickerPro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Hitanobject/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Hitanobject/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Hitanobject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Minesweeper/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Minesweeper/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Minesweeper/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Mix/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Mix/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Mix/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Planning/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Planning/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Planning/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Taken/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Taken/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/Taken/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/TakenManager/Css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/TakenManager/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1Semester2/Examenvoorbereiding/TakenManager/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -47,7 +74,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rhune/OneDrive - Hogeschool VIVES/Documenten/school/2022-23/Semester 1/Web Development/Github/webdevelopment/J1Semester2/Labo_10/Css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rhune/OneDrive - Hogeschool VIVES/Documenten/school/2022-23/Semester 1/Web Development/Github/webdevelopment/J1Semester2/B-Day/Css&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,6 +87,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rhune\OneDrive - Hogeschool VIVES\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\J1Semester2\B-Day\Css" />
       <recent name="C:\Users\rhune\OneDrive - Hogeschool VIVES\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\J1Semester2\Labo_10\Css" />
       <recent name="C:\Users\rhune\OneDrive\Documenten\school\2022-23\Semester 1\Web Development\Github\webdevelopment\leeg\Css" />
     </key>
@@ -168,6 +196,40 @@
       <workItem from="1683096971765" duration="10765000" />
       <workItem from="1683109592206" duration="956000" />
       <workItem from="1683701531353" duration="10787000" />
+      <workItem from="1683899396737" duration="87000" />
+      <workItem from="1684303704195" duration="1436000" />
+      <workItem from="1684505695777" duration="9054000" />
+      <workItem from="1684821949777" duration="7322000" />
+      <workItem from="1685012727042" duration="6555000" />
+      <workItem from="1685114048866" duration="8281000" />
+      <workItem from="1685791957753" duration="13778000" />
+      <workItem from="1685859498846" duration="9712000" />
+      <workItem from="1685987914540" duration="7034000" />
+      <workItem from="1686032150465" duration="20922000" />
+      <workItem from="1686111750969" duration="910000" />
+      <workItem from="1686116404257" duration="648000" />
+      <workItem from="1688992168690" duration="11488000" />
+      <workItem from="1689060433597" duration="8556000" />
+      <workItem from="1689099818511" duration="1004000" />
+      <workItem from="1689103129817" duration="796000" />
+      <workItem from="1689191450231" duration="3052000" />
+      <workItem from="1689320724703" duration="1720000" />
+      <workItem from="1689322470540" duration="15291000" />
+      <workItem from="1689356669959" duration="14177000" />
+      <workItem from="1689705579360" duration="3240000" />
+      <workItem from="1689793131413" duration="4582000" />
+      <workItem from="1689797860395" duration="340000" />
+      <workItem from="1689799426846" duration="2561000" />
+      <workItem from="1690008406613" duration="7577000" />
+      <workItem from="1690046319127" duration="4310000" />
+      <workItem from="1690100936603" duration="4334000" />
+      <workItem from="1691239026107" duration="6529000" />
+      <workItem from="1691270306238" duration="944000" />
+      <workItem from="1692644831684" duration="572000" />
+      <workItem from="1692812120787" duration="604000" />
+      <workItem from="1696515570431" duration="4848000" />
+      <workItem from="1697297849050" duration="1435000" />
+      <workItem from="1697885979702" duration="4865000" />
     </task>
     <servers />
   </component>
