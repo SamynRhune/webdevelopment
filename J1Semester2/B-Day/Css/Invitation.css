@@ -1,6 +1,6 @@
 /* Basisstijl voor de hele pagina */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lucida Handwriting";
     margin: 0;
     padding: 0;
     background-image: url("../Images/fotobaby.png");
@@ -15,14 +15,14 @@ body {
 }
 
 nav>p {
-    font-family: Lucida Console;
+    font-family: "Lucida Console","Lucida Handwriting";
     color:rgb(0, 74, 152);
     font-size: 12px;
 
 }
 
 nav >a{
-
+    font-family: "Arial","Lucida Handwriting";
 }
 
 span{
@@ -102,7 +102,9 @@ nav{
     width: 90%;
 }
 main>p{
+
     margin-top:50px;
+    font-size:25px;
 }
 .unique{
     color: red;
